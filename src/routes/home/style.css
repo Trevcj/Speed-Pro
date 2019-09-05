@@ -1,0 +1,122 @@
+.home {
+  margin-top: 70px;
+}
+
+.mainTop {
+  background-color: #1E4FA4;
+  background-image: url(https://res.cloudinary.com/trevcj/image/upload/c_scale,w_1500/v1567647638/blue-brick-wall-chair-1282315_owdh4k.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.topText {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+
+.mainText {
+  color: #1E4FA4;
+  text-align: left;
+  padding-top: 0.5rem;
+}
+
+.call {
+  font-weight: 300;
+  color: #272727;
+  max-width: 30rem;
+}
+
+#mainPhone {
+  color: #1E4FA4;
+  text-align: center;
+}
+
+.subPhone {
+  padding-top: 4.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: auto;
+}
+.subText {
+  font-weight: 200;
+  text-align: left;
+  font-size: 1.9rem;
+  margin: auto;
+}
+
+.contentCol {
+  max-width: 95%;
+  margin: 2rem auto;
+}
+
+.pageHead {
+  color: #1E4FA4;
+}
+
+.infoPic {
+  max-width: 500px;
+  margin: 1rem auto;
+  width: 95%;
+}
+
+@media only screen and (max-width: 450px) {
+  #mainPhone {
+    font-size: 2.6rem;
+    font-weight: 400;
+  }
+  .subPhone {
+    padding-top: 2.5rem;
+  }
+  .mainText {
+    font-size: 3rem;
+  }
+  .subText {
+    font-size: 1.6rem;
+  }
+  .pageHead{
+    font-size: 2rem;
+  }
+  .call {
+    font-size: 2rem;
+  }
+  .mainTop {
+    min-height: 70vh;
+  }
+}
+
+.fadeInTop {
+	-webkit-animation: fadeInTop 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fadeInTop 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes fadeInTop {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInTop {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
