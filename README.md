@@ -1,4 +1,4 @@
-# test-project
+# Speed Pros SSR
 
 ## Starting
 
@@ -12,9 +12,3 @@ npm run dev
 # build for production with minification
 npm run build
 
-# test the production build locally
-npm run serve
-
-# run tests with jest and preact-render-spy 
-npm run test
-```
